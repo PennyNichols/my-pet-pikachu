@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+body {
+    background-color: rgb(186, 159, 194);
+}
+
+.page {
+    text-align: center;
+    max-height: 100vh;
+    
+}
+
+header{
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
+
+h4{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0;
+}
+
+h4 #clock{
+    display: block;
+    padding: .5rem;
+}
+
+#pikaImage{
+    max-height: 20rem;
+    box-shadow: 1px .5px 3px .5px rgba(0,0,0,0.75);
+    border-radius: .5rem;
+}
+
+blockquote {
+    -webkit-text-stroke: 2px black;
+    text-shadow: 2px 2px #000;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .25rem;
+    margin: 1rem;
+}
+
+#wakeUpTimeSelector, #battleTimeSelector, #adorableTimeSelector, #happyTimeSelector, #sleepTimeSelector{
+    padding: .2rem 0;
+}
+
+#partyTimeButton{
+    box-shadow: 1px .5px 3px .5px rgba(0,0,0,0.75);
+    width: 25rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    cursor: -webkit-grabbing;
+}
+
+select{
+    margin: .25rem 0;
+}
